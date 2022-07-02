@@ -9,24 +9,7 @@ function App() {
   return (
     <div className='body'>
       <Landing/>
-      <Sitio>
-
-    {/* ESTA ES LA ESTRUCTURA: */}
-
-    {/* <Navbar/>
-        <SobreDword>
-          <Carousel/>
-        </SobreDword>
-        <Proceso>
-        </Proceso>
-        <Servicios>
-          <Servicio/>
-        </Servicios>
-        <Formulario/>
-        <Footer/> 
-    */}
-
-      </Sitio>
+      <Sitio/>
     </div>
   );
 }
