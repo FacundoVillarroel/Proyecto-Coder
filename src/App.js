@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Landing from "./components/Landing";
 import Sitio from "./components/Sitio";
@@ -9,24 +10,7 @@ function App() {
   return (
     <div className='body'>
       <Landing/>
-      <Sitio>
-
-    {/* ESTA ES LA ESTRUCTURA: */}
-
-    {/* <Navbar/>
-        <SobreDword>
-          <Carousel/>
-        </SobreDword>
-        <Proceso>
-        </Proceso>
-        <Servicios>
-          <Servicio/>
-        </Servicios>
-        <Formulario/>
-        <Footer/> 
-    */}
-
-      </Sitio>
+      <Sitio/>
     </div>
   );
 }

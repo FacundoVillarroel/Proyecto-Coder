@@ -1,0 +1,68 @@
+.formularioContainer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.contactoTitulo{
+  width: 100%;
+  margin-left: 12%;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.subTituloContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.subTitulo{
+  border-left: 3px solid rgb(219, 211, 211);
+  padding-left: 10px;
+  width: 50%;
+}
+
+.dwordDatosContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(219, 211, 211);
+  padding: 20px 0px;
+}
+
+.formularioDwordDatos{
+width: 50%;
+}
+
+.inputs{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea{
+  display: block;
+  border: none;
+  border-bottom: 2px solid rgb(219, 211, 211);
+  padding-bottom: 5px;
+  padding-top: 20px;
+  width: 200px;
+}
+
+.buttonSubmit{
+  color: white;
+  padding: 10px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(219, 211, 211);
+  background-color: rgb(219, 211, 211);
+}
