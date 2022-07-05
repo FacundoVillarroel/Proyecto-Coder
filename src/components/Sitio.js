@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Navbar from "./Navbar";
+import Navbar from "./navbar/Navbar";
 import SobreDword from "./sobreDword/SobreDword";
 import Proceso from "./proceso/Proceso";
 import Servicios from "./servicios/Servicios";
 import Formulario from "./formulario/Formulario";
-import Footer from './Footer';
+import Footer from './footer/Footer';
 
 const Sitio = () => {
   return (

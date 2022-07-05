@@ -1,0 +1,45 @@
+.servicios {
+    background-color: rgb(236, 234, 234);
+}
+.serviciosContainer {
+    display: flex;
+    justify-content: center;
+    /* height: 20vh;    */
+}
+.serviciosTitle {
+    height: 15vh;
+    align-items: center;
+    display: flex;
+}
+.serviciosLine{
+    width: 80vw;
+    /* height: 5vh;  */
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardsContainer{
+    height: 55vh;
+}
+.sizeCard {
+    width: 18rem;
+    height: 40vh
+}
+.backColorCard {
+    background-color: #848484;
+}
+.backColorCardBtn {
+    background-color: #434343;
+    border: none;
+}
+.marginCard{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.serviciosBottom{
+    background-color: white;
+    height: 20vw;
+}
+img {
+    padding: 20px;
+    border-radius: 15%;
+}
