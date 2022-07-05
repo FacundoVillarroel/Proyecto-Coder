@@ -1,0 +1,36 @@
+.footerContainer {
+    height: 8vh;
+    background-color: rgb(236, 234, 234);
+}
+.footerAlign{
+    display: flex;
+    align-items: center;
+}
+.footerInner {
+    text-align: center;
+}
+.imgIcon {
+    width: 60px;
+}
+.imgRedes {
+    width: 70px;
+}
+.footerBrand {
+    display: flex;
+    align-content: center;
+}
+.footerBrandTxt {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.footerHome {
+    display: flex;
+    justify-content: flex-end;
+}
+.footerArrowTxt {
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.footerbottom {
+    height: 6vh;
+}
