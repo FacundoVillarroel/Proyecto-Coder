@@ -1,0 +1,41 @@
+.procesoContainer{
+  padding: 30px;
+}
+
+.procesoCuadro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid rgb(219, 211, 211);;
+  border-radius: 50px;
+  padding: 40px;
+}
+
+.procesoFlex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.procesoCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+}
+
+.procesoImgContainer{
+  width: fit-content;
+  padding-bottom: 40px;
+}
+
+.procesoImg{
+  max-width: 150px;
+  max-height: 78px;
+  
+}
+
+.procesoText{
+  text-align: center;
+  font-size: small;
+}

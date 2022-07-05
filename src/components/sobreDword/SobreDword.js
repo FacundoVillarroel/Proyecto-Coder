@@ -1,12 +1,14 @@
 import React from 'react';
 
-import Carousel from "./Carousel";
+import CarouselContainer from "./CarouselContainer";
+import "./sobreDword.css"
 
 const SobreDword = () => {
   return (
     <div>
-      SobreDword
-      <Carousel/>
+      <h1 className='text-center my-5'>SobreDword</h1>
+      
+      <CarouselContainer/>
     </div>
   )
 }

@@ -1,0 +1,56 @@
+.carouselContainer{
+  padding: 70px 30px;
+  background-color: rgb(219, 211, 211);
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.itemCarouselContainer{
+  display: flex;
+  align-items: center;
+}
+
+.imgItemCarousel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.imgCarousel{
+  width: 50%;
+}
+
+.textoItemCarousel{
+  font-size: small;
+  padding-left: 20px;
+  padding-right: 60px;
+  width: 40%;
+  position: relative;
+}
+
+.lineaDecoracion{
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  bottom: 0;
+}
+
+.carousel-indicators{
+  bottom: -60px;
+  right: -90px;
+  justify-content: flex-end;
+}
+
+.carousel-indicators button {
+  border: 1px solid transparent !important;
+  border-radius: 50% !important;
+  background-color: rgba(87, 85, 85, 0.4) !;
+  height: 15px !important;
+  width: 15px !important;}
+
+  .carousel-indicators .active {
+  border: 1px solid transparent;
+  border-radius:50%;
+  background-color: black;}
