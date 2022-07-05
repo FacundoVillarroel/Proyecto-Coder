@@ -1,7 +1,7 @@
 import React from 'react';
 import desarrolloWeb from '../../img/desarrolloWeb.jpg'
 import hosting from '../../img/hosting.jpg'
-import disenoWeb from '../..img/disenoWeb.jpg'
+import disenoWeb from '../../img/disenoWeb.jpg'
 import './Servicios.css'
 
 const Servicios = () => {

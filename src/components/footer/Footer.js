@@ -1,5 +1,5 @@
-import './Nav/Footer.css'
-import instagram from '../..img/instagram.svg'
+import './Footer.css'
+import instagram from '../../img/instagram.svg'
 import linkedin from '../../img/linkedin.svg'
 import facebook from '../../img/facebook.svg'
 import copyright from '../../img/copyright.svg'
