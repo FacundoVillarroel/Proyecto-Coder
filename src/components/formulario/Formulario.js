@@ -5,24 +5,23 @@ import "./formulario.css"
 const Formulario = () => {
   return (
     <div className='formularioContainer'>
-      <h1 className='contactoTitulo'>Contacto</h1>
-      <div className='contacto'>
-        <div className='subTituloContainer'>
-          <div className='subTitulo'>
-            <h3 className='pb-2'>Tenés un proyecto en mente...?</h3>
-            <p className='mb-0'>Dejanos tu Mensaje</p>
-          </div>
-        </div>
-        <div className='dwordDatosContainer'>
-          <div className='formularioDwordDatos'>
-            <h3>Dword.</h3>
-            <p>Av. Siempreviva 2022 - CABA</p>
-            <p>12345678910 - 1098716299</p>
-            <p>contacto@dword.com.ar</p>
-          </div>
+      <h1 className='contactoTitulo'>CONTACTO</h1>
+      <div className='proyectoEnMenteContainer'>
+        <div className='proyectoEnMente'>
+          <h3 className='pb-2'>Tenés un proyecto en mente...?</h3>
+          <p className='mb-0'>Dejanos tu Mensaje</p>
         </div>
       </div>
-      <div className='inputs'>
+      <div className='dwordDatosContainer'>
+        <div className='dwordDatos'>
+          <h3>DWORD</h3>
+          <p>+54 351 3394358</p>
+          <span className='spanDwordDatos'> - </span>
+          <p>contactodword@gmail.com</p>
+        </div>
+        <div className='lineaDecoracionFormulario'></div>
+      </div>
+      <div className='form'>
         <form>
           <input type="text" name='nombre' placeholder='Nombre y Apellido'/>
           <input type="text" name='telefono' placeholder='Teléfono'/>
