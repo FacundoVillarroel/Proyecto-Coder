@@ -5,9 +5,14 @@ import "./sobreDword.css"
 
 const SobreDword = () => {
   return (
-    <div>
-      <h1 className='text-center my-5'>SobreDword</h1>
-      
+    <div className='sobreDwordContainer d-flex flex-column'>
+      <div className='dwordTituloContainer'>
+        <div className='lineaDecorativaTitulo hide'></div>
+        <h1 className='dwordTitulo'>
+          SOBRE <span className='dwordFont'>DWORD</span>
+        </h1>
+        <div className='lineaDecorativaTitulo'></div>
+      </div>
       <CarouselContainer/>
     </div>
   )
