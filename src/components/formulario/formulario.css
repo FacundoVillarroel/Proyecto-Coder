@@ -15,21 +15,32 @@
 .contactoTitulo{
   grid-area: contactoTitulo;
   padding: 0 5vh;
+  letter-spacing: 5px;
 }
 
 .dwordDatosContainer{
   position: relative;;
 }
 
+.dwordDatos h3{
+  letter-spacing: 10px;
+}
+
 .proyectoEnMenteContainer{
   grid-area: proyectoEnMenteContainer;
   padding: 0 5vh;
   display: flex;
+  font-weight: 600;
 }
 
 .proyectoEnMente{
   border-left: 3px solid #26E673;
   padding-left: 10px;
+}
+
+.proyectoEnMente h3{
+  padding-bottom: 20px;
+  font-weight: 600;
 }
 
 .form{
@@ -55,6 +66,10 @@ input, textarea{
   width: 100%;
   }
 
+::placeholder{
+  color: black;
+}
+
 textarea{
   height: 120px;
 }
@@ -73,6 +88,7 @@ textarea{
   display: inline;
 }
 
+
 .lineaDecoracionFormulario{
   position: absolute;
   width: 50px;
@@ -84,4 +100,91 @@ textarea{
   right: 0;
   text-align: center;
   background-color: #26E673;
+}
+
+@media only screen and (min-width: 768px) {
+  .formularioContainer{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "contactoTitulo contactoTitulo"
+      "proyectoEnMenteContainer form"
+      "dwordDatosContainer form";
+      padding-bottom: 100px;
+  }
+
+  .contactoTitulo{
+    font-size: 50px;
+    margin-left: 10%;
+    letter-spacing: 10px;
+  }
+
+  .proyectoEnMenteContainer{
+    width: 85%;
+    margin-left: 20%;
+    font-size: 20px;
+  }
+
+  .proyectoEnMente h3{
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .proyectoEnMente{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+  }
+
+  .dwordDatosContainer{
+    display:flex;
+    justify-content: center;
+  }
+
+  .dwordDatos{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+  }
+
+  .dwordDatos p{
+    margin: 0;
+    margin-top: 15px;
+    font-size: 25px;
+  }
+
+  .dwordDatos h3{
+    margin-bottom: 70px;
+    font-size: 50px;
+    padding-top: 30px;
+    letter-spacing: 20px;
+  }
+
+  .spanDwordDatos{
+    display: none;
+  }
+
+  .lineaDecoracionFormulario{
+    width: 2px;
+    height: 50px;
+    right: 20px;
+    bottom: 36px;
+    left: unset;
+  }
+
+  .formFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 15%;
+  }
+
+  .buttonSubmit{
+    width: fit-content;
+    border-radius: 15px;
+  }
 }

@@ -10,10 +10,10 @@ import Footer from './footer/Footer';
 const Sitio = () => {
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <SobreDword/>
       <Proceso/>
-      {/* <Servicios/> */}
+      <Servicios/>
       <Formulario/>
       <Footer/>
     </div>

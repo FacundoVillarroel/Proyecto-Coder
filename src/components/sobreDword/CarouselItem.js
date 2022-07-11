@@ -20,9 +20,9 @@ const CarouselItem = ({img, titulo, text}) => {
               />
             </div>
             <div className='textoItemCarousel col-12 col-md-6'>
-              <h1 className='mb-4 pb-3 tituloCarousel'> {titulo}</h1>
+              <h2 className='mb-4 pb-3 tituloCarousel'> {titulo}</h2>
               <p>
-                {width <= 768 ? <>{shortText}</> : <>{shortText}</>}
+                {width <= 768 ? <>{shortText}</> : <>{text}</>}
               </p>
               <div className='lineaDecoracion'></div>
             </div>

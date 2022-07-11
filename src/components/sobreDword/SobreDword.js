@@ -8,10 +8,11 @@ const SobreDword = () => {
     <div className='sobreDwordContainer d-flex flex-column'>
       <div className='dwordTituloContainer'>
         <div className='lineaDecorativaTitulo hide'></div>
-        <h1 className='dwordTitulo'>SOBRE DWORD</h1>
+        <h1 className='dwordTitulo'>
+          SOBRE <span className='dwordFont'>DWORD</span>
+        </h1>
         <div className='lineaDecorativaTitulo'></div>
       </div>
-      
       <CarouselContainer/>
     </div>
   )
