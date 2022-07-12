@@ -1,6 +1,6 @@
 import React from 'react';
-
 import Navbar from "./navbar/Navbar";
+import Inicio from "./inicio/Inicio";
 import SobreDword from "./sobreDword/SobreDword";
 import Proceso from "./proceso/Proceso";
 import Servicios from "./servicios/Servicios";
@@ -11,6 +11,7 @@ const Sitio = () => {
   return (
     <div>
       <Navbar/>
+      <Inicio/>
       <SobreDword/>
       <Proceso/>
       <Servicios/>

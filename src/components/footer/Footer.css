@@ -1,19 +1,26 @@
 .footerContainer {
-    height: 8vh;
-    background-color: rgb(236, 234, 234);
+    height: 15vh;
+    background-color: black;
+    display: flex;
 }
 .footerAlign{
     display: flex;
     align-items: center;
+    width: 100vw;
 }
 .footerInner {
     text-align: center;
+    
 }
 .imgIcon {
-    width: 60px;
+    width: 50px;
+    filter: invert(1);
+    margin: 20px;
 }
 .imgRedes {
-    width: 70px;
+    width: 50px;
+    filter: invert(1);
+    margin: 20px;
 }
 .footerBrand {
     display: flex;
@@ -31,6 +38,12 @@
     margin-bottom: auto;
     margin-top: auto;
 }
-.footerbottom {
-    height: 6vh;
+
+.greenArrow {
+    color: #26E673;
+}
+
+.footerCenter {
+    display: flex;
+    align-content: center;
 }

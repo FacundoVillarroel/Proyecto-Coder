@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div>
             <div class="footerContainer">
-                <div class="container">
+                <div class="container footerCenter">
                     <div class="row footerAlign">
                         <div class="col footerBrand footerInner">
                         <img class="imgIcon" src={copyright} alt="Copyrigth"/>
@@ -22,16 +22,12 @@ const Footer = () => {
                         </div>
                         <div class="col footerHome footerInner">
                             <p class="footerArrowTxt">Volver arriba</p>
-                            <img class="imgIcon" src={arrow} alt="Flecha hacia inicio"/>
+                            <img class="imgIcon greenArrow" src={arrow} alt="Flecha hacia inicio"/>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footerbottom">
-
-            </div>
         </div>
-
     )
 }
 
