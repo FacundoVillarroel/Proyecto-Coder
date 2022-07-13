@@ -1,0 +1,56 @@
+.landing {
+    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../../img/background.jpg");
+    background-size: 100%;
+    height: 100vh;
+    /* width: 100vw; */
+    /* display: inline-flex; */
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+}
+
+.landingBoxLogo {
+    text-align: center
+}
+.landingBoxTextoTitulo{
+    color: white;
+    font-size: 4rem;
+    font-weight: 200;
+}
+.landingBoxTextoSubtitulo{
+    color: white;
+    margin-bottom: 10%;
+}
+.landingBoxTextoParrafo{
+    color: white;
+}
+
+.landingBoxTextoPadding {
+    padding-right: 15%;
+}
+
+.landingButtonSubmit{
+    width: 100%;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #26E673;
+    background-color: #26E673;
+    width: 40%;
+}
+
+.landingBoxTextoBotones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.landingBoxTexto {
+    display: flex;
+    align-items: center;
+}
+
+.landingImg {
+    width: 90%;
+}

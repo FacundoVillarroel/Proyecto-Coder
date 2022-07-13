@@ -1,45 +1,109 @@
 .servicios {
-    background-color: rgb(236, 234, 234);
+    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../../img/background.jpg");
+    padding: 5vh 5vh;
+    height: 70vh;
+    position: relative;
 }
+
 .serviciosContainer {
     display: flex;
     justify-content: center;
     /* height: 20vh;    */
 }
+
 .serviciosTitle {
     height: 15vh;
     align-items: center;
     display: flex;
 }
+
 .serviciosLine{
     width: 80vw;
     /* height: 5vh;  */
     margin-left: auto;
     margin-right: auto;
 }
+
 .cardsContainer{
     height: 55vh;
+    position: absolute;
+    top: 50%;
 }
+
 .sizeCard {
-    width: 18rem;
-    height: 40vh
+    width: 20rem;
+    height: 45vh;
+    margin: auto;
+    border-radius: 0.5rem;
+    box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
+    -moz-box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
 }
+
 .backColorCard {
-    background-color: #848484;
+    background-color: white;
 }
-.backColorCardBtn {
-    background-color: #434343;
-    border: none;
+
+.serviciosButtonSubmit{
+    font-weight: 600;
+    color: black;
+    margin-top: 15%;
+    border-radius: 10px;
+    border: 1px solid #26E673;
+    background-color: #26E673;
+    width: 60%;
 }
+
 .marginCard{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 .serviciosBottom{
     background-color: white;
     height: 20vw;
 }
-img {
-    padding: 20px;
-    border-radius: 15%;
+
+.serviciosImg {
+    padding: 30px;
+    border-radius: 12%;
+    filter: grayscale(1);
+    margin: auto;
+}
+
+.card-title {
+    color: black;
+    font-weight: bold;
+}
+
+.card-text {
+    color: black;
+    font-size: .95rem;
+}
+
+.serviciosBottomLineWhite {
+    height: 2vh;
+    background-color: white;
+}
+
+.serviciosBottomLineBlack {
+    height: 2vh;
+    background-color: black;
+}
+
+.serviciosBottomLine {
+    height: 20vh;
+    background-color: white;
+}
+
+.titleMargin {
+    margin-top: 7%;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.cardsContainerCenter {
+    justify-content: space-around;
 }
