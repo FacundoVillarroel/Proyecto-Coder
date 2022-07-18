@@ -4,6 +4,7 @@
   background-size: 100%;
   width: 100%;
   margin-bottom: 30px;
+  padding-top: 8vh;
 }
 
 .dwordTituloContainer{
@@ -47,7 +48,8 @@
 }
 
 .imgCarousel{
-  border-radius: 0;
+  filter: grayscale(100%);
+  border-radius: 15px;
   width: 70%;
   padding: 0;
 }
@@ -87,6 +89,10 @@
   background-color: #26E673;}
 
 @media only screen and (min-width: 768px) {
+  .sobreDwordContainer{
+    padding-top: 15vh;
+  }
+
   .carouselContainer{
     margin: 10vh 5vh ;
   }
@@ -126,5 +132,17 @@
   .carousel-indicators button {
     width: 25px !important;
     height: 25px !important;
+  }
+  
+  .imgCarousel{
+    border-radius: 35px;
+  }
+
+  .imgItemCarousel{
+    padding: 0;
+  }
+
+  .textoItemCarousel{
+    padding-bottom: 70px;
   }
 }

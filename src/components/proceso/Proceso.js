@@ -11,7 +11,7 @@ import fase4 from "../../img/fase4.png";
 const Proceso = () => {
   return (
     <div className='procesoContainer d-flex flex-column align-items-center'>
-      <h1 className='mb-5 text-center'>PROCESO</h1>
+      <h1 className='text-center'>PROCESO</h1>
       <div className='procesoCuadro'>
           <ProcesoCard numero={1} img={fase1} text ={"Tomamos la idea propuesta por el cliente, evaluamos las distintas posibilidades y diseñamos el primer boceto del sitio."} />
           <ProcesoCard numero={2} img={fase2} text ={"El cliente evalúa la estética y funcionalidad de la web para ajustar detalles y pasar a la fase final de desarrollo."} />
