@@ -1,19 +1,16 @@
 .inicioFondo {
-    /* width: 100vw; */
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("../../img/imagenCompu.jpg");
-    /* position: absolute; */
     background-size: cover;
-        display: flex;
-    /* align-content: center; */
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .inicioLogo {
-    /* position: absolute; */
     text-align: center
 }
+
 img {
     width: 60%;
 }

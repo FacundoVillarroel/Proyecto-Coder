@@ -7,25 +7,20 @@ import arrow from '../../img/arrow.svg'
 
 const Footer = () => {
     return (
-        <div>
-            <div className="footerContainer">
-                <div className="container footerCenter">
-                    <div className="row footerAlign">
-                        <div className="col footerBrand footerInner">
-                        <img className="imgIcon" src={copyright} alt="Copyrigth"/>
-                           <p className="footerBrandTxt">2022 Dword</p>
-                        </div>
-                        <div className="col footerMedia footerInner">
-                        <img className="imgRedes" src={instagram} alt="Logo de instagrm"/>
-                        <img className="imgRedes" src={linkedin} alt="Logo de instagrm"/>
-                        <img className="imgRedes" src={facebook} alt="Logo de instagrm"/>
-                        </div>
-                        <div className="col footerHome footerInner">
-                            <p className="footerArrowTxt">Volver arriba</p>
-                            <img className="imgIcon greenArrow" src={arrow} alt="Flecha hacia inicio"/>
-                        </div>
-                    </div>
-                </div>
+
+        <div class="footerBox">
+            <div class="footerBoxFlecha">
+                <p class="footerTxt"> <a class="footerTxt" href="#inicio">Volver arriba</a></p>
+                <a href="#inicio"><img class="footerImgFlecha" src={arrow} alt="" /></a>
+            </div>
+            <div class="footerBoxRedes">
+                <img class="footerImgRedes" src={instagram} alt="logo instagram" />
+                <img class="footerImgRedes" src={facebook} alt="logo facebook" />
+                <img class="footerImgRedes" src={linkedin} alt="logo linkedin" />
+            </div>
+            <div class="footerBoxDerechos">
+                <img class="footerImgCpy" src={copyright} alt="logo copyright" />
+                <p class="footerTxtCopy">2022 Dword.</p>
             </div>
         </div>
     )

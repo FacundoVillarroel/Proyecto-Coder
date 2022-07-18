@@ -51,7 +51,7 @@ const Formulario = () => {
   }
 
   return (
-    <div className='formularioContainer'>
+    <div className='formularioContainer' id="contacto">
       <h1 className='contactoTitulo'>CONTACTO</h1>
       <div className='proyectoEnMenteContainer'>
         <div className='proyectoEnMente'>

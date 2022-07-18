@@ -6,53 +6,131 @@ import './Servicios.css'
 
 const Servicios = () => {
     return (
-        <div>
-            <div className="servicios">
-                <div className='dwordTituloContainer titleMargin'>
-                    <div className='lineaDecorativaTitulo hide'></div>
-                    <h1 className='dwordTitulo'>SERVICIOS</h1>
-                    <div className='lineaDecorativaTitulo'></div>
-                </div>
+        <div id="servicios"> 
+        <div class="serviciosPadre">
+        <div class="serviciosTituloMovile">SERVICIOS
+            <hr class="serviciosLineaMovile"/>
+        </div>
+        <div class="serviciosCarrousel serviciosCardsMovile">
 
-                <div className="container cardsContainer">
-                    <div className="row cardsContainerCenter">
-                        <div className="col marginCard">
-                            <div className="card sizeCard backColorCard" >
-                                <img src={disenoWeb} className="card-img-top serviciosImg" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">Diseño Web</h5>
-                                    <p className="card-text">Esbozo de una página web teniendo en cuenta la idea del cliente.</p>
-                                    <a href="/" className="btn btn-primary serviciosButtonSubmit">Consultar</a>
-                                </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner serviciosCardSombra">
+                    <div class="carousel-item active">
+
+                        <div class="serviciosCard">
+                            <div class="serviciosCardImg">
+                                <img class="serviciosImg" src={disenoWeb} alt="iamgen diseño"/>
+                            </div>
+                            <div class="serviciosCardBoxTexto">
+                                <h1 class="serviciosCardTitulo">Diseño</h1>
+                                <p class="serviciosCardParrafo">Esbozo de una pagina web teniendo en cuenta la idea del
+                                    cliente.</p>
+                            </div>
+                            <div class="serviciosCardBoxBtn">
+                                <a  href="#contacto"><button class="serviciosCardBtn">Consultar</button></a>
                             </div>
                         </div>
-                        <div className="col marginCard">
-                            <div className="card sizeCard backColorCard" >
-                                <img src={desarrolloWeb} className="card-img-top serviciosImg" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">Desarrollo Web</h5>
-                                    <p className="card-text">Programación y codificación de una página web en base al diseño.</p>
-                                    <a href="/" className="btn btn-primary serviciosButtonSubmit">Consultar</a>
-                                </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="serviciosCard">
+                            <div class="serviciosCardImg">
+                                <img class="serviciosImg" src={desarrolloWeb} alt="imagen desarrollo web"/>
+                            </div>
+                            <div class="serviciosCardBoxTexto">
+                                <h1 class="serviciosCardTitulo">Desarrollo web</h1>
+                                <p class="serviciosCardParrafo">
+                                    Programación y codificación de una pagina web en base al diseño previo.</p>
+                            </div>
+                            <div class="serviciosCardBoxBtn">
+                                <button class="serviciosCardBtn">Consultar</button>
                             </div>
                         </div>
-                        <div className="col marginCard">
-                            <div className="card sizeCard backColorCard" >
-                                <img src={hosting} className="card-img-top serviciosImg" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">Hosting</h5>
-                                    <p className="card-text">Puesta online de una página web. Alojamiento y Dominio.</p>
-                                    <a href="/" className="btn btn-primary serviciosButtonSubmit">Consultar</a>
-                                </div>
+                    </div>
+                    <div class="carousel-item">
+
+                        <div class="serviciosCard">
+                            <div class="serviciosCardImg">
+                                <img class="serviciosImg" src={hosting} alt="imagen Hosting"/>
+                            </div>
+                            <div class="serviciosCardBoxTexto">
+                                <h1 class="serviciosCardTitulo">Hosting</h1>
+                                <p class="serviciosCardParrafo">
+                                    Puesta online de una pagina web.</p>
+                            </div>
+                            <div class="serviciosCardBoxBtn">
+
+                                <button class="serviciosCardBtn">Consultar</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="serviciosBottomLineWhite"></div>
-            <div className="serviciosBottomLineBlack"></div>
-            <div className="serviciosBottomLine"></div>
         </div>
+
+        <div class="serviciosTituloTablet">
+            <div class="serviciosLineaTablet"></div>
+            <h1>SERVICIOS</h1>
+            <div class="serviciosLineaTablet"></div>
+
+        </div>
+
+        <div class="serviciosCardsTablet">
+            {/* <!-- Card Diseño >= Tablet --> */}
+
+            <div class="serviciosCard">
+                <div class="serviciosCardImg">
+                    <img class="serviciosImg" src={disenoWeb} alt="iamgen diseño web"/>
+                </div>
+                <div class="serviciosCardBoxTexto">
+                    <h1 class="serviciosCardTitulo">Diseño</h1>
+                    <p class="serviciosCardParrafo">Esbozo de una pagina web teniendo en cuenta la idea del
+                        cliente.</p>
+                </div>
+                <div class="serviciosCardBoxBtn">
+                    <button class="serviciosCardBtn">Consultar</button>
+                </div>
+            </div>
+
+            {/* <!-- Card Desarrollo Web >= Tablet --> */}
+
+            <div class="serviciosCard">
+                <div class="serviciosCardImg">
+                    <img class="serviciosImg" src={desarrolloWeb} alt="imagen desarrollo web"/>
+                </div>
+                <div class="serviciosCardBoxTexto">
+                    <h1 class="serviciosCardTitulo">Desarrollo web</h1>
+                    <p class="serviciosCardParrafo">
+                        Programación y codificación de una pagina web en base al diseño previo.</p>
+                </div>
+                <div class="serviciosCardBoxBtn">
+                    <button class="serviciosCardBtn">Consultar</button>
+                </div>
+            </div>
+
+            {/* <!-- Card Hosting >= Tablet --> */}
+
+            <div class="serviciosCard">
+                <div class="serviciosCardImg">
+                    <img class="serviciosImg" src={hosting} alt="iamgen hosting"/>
+                </div>
+                <div class="serviciosCardBoxTexto">
+                    <h1 class="serviciosCardTitulo">Hosting</h1>
+                    <p class="serviciosCardParrafo">
+                        Puesta online de una pagina web.</p>
+                </div>
+                <div class="serviciosCardBoxBtn">
+
+                    <button class="serviciosCardBtn">Consultar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="serviciosLienaBlanca"></div>
+    <div class="serviciosLienaNegra"></div>
+    <div class="serviciosFin"></div>
+    </div>
     )
 }
 

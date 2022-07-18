@@ -1,29 +1,63 @@
-.paddingNav{
-    padding: 0;   
-    margin: 0;
+.cuerpo {
+    background-color: red;
+    height: 120vh;
+
 }
 
-.heightNav {
-    height: 10vh;
-}
-
-.navLine {
-    padding-left: 3%;
-    padding-right: 3%;
-    border-bottom: solid 5px #26E673;
-}
-
-.navDwordFont{
+.navFuente{
     font-family: 'Crimson Text', serif;
     font-weight: 400;
-    /* font-weight: bold; */
     font-feature-settings: "tnum";
     font-variant-numeric: tabular-nums;
-    letter-spacing: 20px;
+    letter-spacing: 10px;
 }
 
-.navSecciones{
+.navA {
+    color: white;
+}
+.navMinuscula {
+    display: inline;
+}
+
+.navMayuscula {
+    display:none;
+  }
+
+ .navPadding {
+     padding: 5%
+    
+ } 
+
+ .navBtnHover:hover {
+color:green;
+ }
+
+@media only screen and (min-width: 1024px) {
+
+    .navAlineacion {
+        justify-content: flex-end
+    }
+    .cuerpo {
+        background-color: yellow;
+    }
+    .navMinuscula {
+        display:none;
+    }
+
+    .navMayuscula {
+        display: inline;
+      }
+
+.navSeparacion {
     width: 60%;
-    display: inline-flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navPadding {
+    padding: 0%
+   
+} 
+    
 }

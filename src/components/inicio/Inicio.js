@@ -4,14 +4,14 @@ import './Inicio.css'
 
 const Inicio = () => {
   return (
-   <div>
-    <div className="inicioFondo">
-    <div className="inicioLogo">
-<img src={logoBlanco}/>
-    </div>
+    <div id="inicio">
+      <div class="inicioFondo">
+        <div class="inicioLogo">
+          <img src={logoBlanco} />
+        </div>
+      </div>
 
     </div>
-   </div>
   )
 }
 

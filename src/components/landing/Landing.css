@@ -1,56 +1,120 @@
-.landing {
+.indexFondo {
+    /* background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../../img/background.jpg"); */
     background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../../img/background.jpg");
-    background-size: 100%;
     height: 100vh;
-    /* width: 100vw; */
-    /* display: inline-flex; */
+    background-size: cover;
+}
+
+.indexBoxLogo {
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    display: flex;
     justify-content: center;
+    height: 40vh;
 }
 
-.landingBoxLogo {
-    text-align: center
+.indexImg {
+    width: 60%;
 }
-.landingBoxTextoTitulo{
+
+.indexBoxTexto {
+    padding: 5%;
+}
+
+.landingFuente{
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 10px;
+}
+
+.indexTextTitulo {
     color: white;
-    font-size: 4rem;
-    font-weight: 200;
+    font-size: 2rem;
 }
-.landingBoxTextoSubtitulo{
+
+.indexTextSubtitulo {
     color: white;
-    margin-bottom: 10%;
+    font-size: 1.2rem;
+    padding-bottom: 5%;
 }
-.landingBoxTextoParrafo{
+
+.indexTextParrafo {
     color: white;
 }
 
-.landingBoxTextoPadding {
-    padding-right: 15%;
-}
-
-.landingButtonSubmit{
-    width: 100%;
-    font-weight: 600;
-    padding: 10px 20px;
-    margin-top: 30px;
-    border-radius: 10px;
-    border: 1px solid #26E673;
-    background-color: #26E673;
-    width: 40%;
-}
-
-.landingBoxTextoBotones {
+.indexBoxBotones {
+    height: 20vh;
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
-.landingBoxTexto {
-    display: flex;
-    align-items: center;
+.landingButtonSubmit {
+    width: 40vw;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #26E673;
+    background-color: #26E673;
+    font-size: .6rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-.landingImg {
-    width: 90%;
+@media only screen and (min-width: 768px) {
+
+    .indexFondo {
+        display: flex;
+        align-items: center;
+    }
+
+    .indexImg {
+        width: 100%;
+        display: flex;
+    }
+
+    .indexBoxLogo {
+        width: 50%;
+    }
+
+    .indexBoxTexto {
+        width: 50%;
+    }
+
+    .indexBoxTexto {
+        padding-right: 10%;
+    }
+
+    .landingButtonSubmit {
+        width: 16vw;
+    }
+
+    .indexTextTitulo {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+
+    .landingButtonSubmit {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .landingButtonSubmit {
+        font-size: .6rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .landingButtonSubmit {
+        font-size: .9rem;
+    }
+
+    .indexImg {
+        width: 70%;   
+    }
 }
