@@ -1,9 +1,9 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React from 'react';
 
-import quienesSomosImg from "../../img/quienesSomos.png";
-import queHacemosImg from "../../img/queHacemos.png";
-import porqueElegirnosImg from "../../img/porqueElegirnos.png";
+import quienesSomosImg from "../../img/quienesSomos.jpg";
+import queHacemosImg from "../../img/queHacemos.jpg";
+import porqueElegirnosImg from "../../img/porqueElegirnos.jpg";
 import CarouselItem from './CarouselItem';
 
 function CarouselContainer() {

@@ -10,6 +10,7 @@ const Inicio = () => {
           <img src={logoBlanco} />
         </div>
       </div>
+
     </div>
   )
 }

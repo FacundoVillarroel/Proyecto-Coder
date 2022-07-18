@@ -7,6 +7,7 @@ import arrow from '../../img/arrow.svg'
 
 const Footer = () => {
     return (
+
         <div class="footerBox">
             <div class="footerBoxFlecha">
                 <p class="footerTxt"> <a class="footerTxt" href="#inicio">Volver arriba</a></p>

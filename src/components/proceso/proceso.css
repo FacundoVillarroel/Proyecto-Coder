@@ -2,6 +2,7 @@
   padding: 30px;
   background-color: white;
   color: black;
+  padding-top: 50px;
 }
 
 .procesoContainer h1{
@@ -29,6 +30,7 @@
   justify-content: center;
   justify-items: center;
   align-content: center;
+  margin-bottom: 50px;
 }
 
 .numeroProceso{
@@ -41,6 +43,8 @@
 
 .procesoImgContainer{
   grid-area: procesoImgContainer;
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 .procesoImg{
@@ -56,6 +60,10 @@
 
 
 @media only screen and (min-width: 768px) {
+  .procesoContainer{
+    padding-top: 80px;
+  }
+
   .procesoCuadro{
     border: 3px solid #26E673;
     border-radius: 100px;
@@ -67,6 +75,7 @@
 
   .procesoContainer h1{
     letter-spacing: 20px;
+    margin-bottom: 60px;
   }
 
   .procesoCard{
@@ -88,7 +97,7 @@
   }
 
   .procesoText{
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .procesoImgContainer img{
