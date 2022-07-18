@@ -8,19 +8,19 @@ import arrow from '../../img/arrow.svg'
 const Footer = () => {
     return (
 
-        <div class="footerBox">
-            <div class="footerBoxFlecha">
-                <p class="footerTxt"> <a class="footerTxt" href="#inicio">Volver arriba</a></p>
-                <a href="#inicio"><img class="footerImgFlecha" src={arrow} alt="" /></a>
+        <div className="footerBox">
+            <div className="footerBoxFlecha">
+                <p className="footerTxt"> <a className="footerTxt" href="#inicio">Volver arriba</a></p>
+                <a href="#inicio"><img className="footerImgFlecha" src={arrow} alt="" /></a>
             </div>
-            <div class="footerBoxRedes">
-                <img class="footerImgRedes" src={instagram} alt="logo instagram" />
-                <img class="footerImgRedes" src={facebook} alt="logo facebook" />
-                <img class="footerImgRedes" src={linkedin} alt="logo linkedin" />
+            <div className="footerBoxRedes">
+                <img className="footerImgRedes" src={instagram} alt="logo instagram" />
+                <img className="footerImgRedes" src={facebook} alt="logo facebook" />
+                <img className="footerImgRedes" src={linkedin} alt="logo linkedin" />
             </div>
-            <div class="footerBoxDerechos">
-                <img class="footerImgCpy" src={copyright} alt="logo copyright" />
-                <p class="footerTxtCopy">2022 Dword.</p>
+            <div className="footerBoxDerechos">
+                <img className="footerImgCpy" src={copyright} alt="logo copyright" />
+                <p className="footerTxtCopy">2022 Dword.</p>
             </div>
         </div>
     )

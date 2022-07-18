@@ -5,9 +5,9 @@ import './Inicio.css'
 const Inicio = () => {
   return (
     <div id="inicio">
-      <div class="inicioFondo">
-        <div class="inicioLogo">
-          <img src={logoBlanco} />
+      <div className="inicioFondo">
+        <div className="inicioLogo">
+          <img src={logoBlanco} alt={"logo"}/>
         </div>
       </div>
 
