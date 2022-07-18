@@ -8,7 +8,6 @@ const CarouselItem = ({img, titulo, text}) => {
     shortText = shortText + text[i];
   }
   shortText = shortText +"..";
-  console.log(width);
 
   return (
     <div className='d-flex align-items-center row itemCarouselContainer'>
