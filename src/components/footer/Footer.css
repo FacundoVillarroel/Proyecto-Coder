@@ -1,49 +1,115 @@
-.footerContainer {
-    height: 15vh;
-    background-color: black;
-    display: flex;
+.otro {
+    height: 40vh;
 }
-.footerAlign{
+.footerBox {
+background-color: black;
+height: 40vh;
+}
+.footerTxtTitulo {
+    color: white;
+}
+
+.footerTxt {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+.footerImgRedes {
+    width: 50px;
+    filter: invert(1);
+}
+.footerImgCpy {
+    width: 20px;
+    filter: invert(1);
+    margin: 5%;
+}
+.footerImgFlecha {
+    width: 20px;
+    filter: invert(1);
+    margin-left: 60%;
+}
+
+.footerBoxTitulo{
+    height: 20vh;
+    display: inline-block;
+    text-align: center;
+}
+.footerBoxFlecha {
+    height: 10vh; 
     display: flex;
     align-items: center;
-    width: 100vw;
+    justify-content: center;
 }
-.footerInner {
-    text-align: center;
+.footerBoxRedes {
+    height: 10vh;  
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.footerBoxDerechos{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerTitulo {
+    height: 10vh;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+.footerSubtitulo {
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  
+}
+.footerTxtCopy {
+
+    margin-top: auto;
+        margin-bottom: auto;
+        color: white;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .footerBox {
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .footerBoxTitulo {
+        display: none;
+        width: 30vw;
+    }
+
+    .footerBoxTitulone {
+        height: auto;
+    }
     
-}
-.imgIcon {
-    width: 50px;
-    filter: invert(1);
-    margin: 20px;
-}
-.imgRedes {
-    width: 50px;
-    filter: invert(1);
-    margin: 20px;
-}
-.footerBrand {
-    display: flex;
-    align-content: center;
-}
-.footerBrandTxt {
-    margin-bottom: auto;
-    margin-top: auto;
-}
-.footerHome {
-    display: flex;
-    justify-content: flex-end;
-}
-.footerArrowTxt {
-    margin-bottom: auto;
-    margin-top: auto;
+    .footerBoxFlecha {
+         height: auto;
+         width: 30vw;
+    }
+    .footerBoxRedes {
+        height: auto;
+     }
+    .footerBoxDerechos {
+        height: auto;
+        width: 30vw;
+    }
+    .footerImgRedes {
+        margin: 5%;
+    }   
+
 }
 
-.greenArrow {
-    color: #26E673;
-}
 
-.footerCenter {
-    display: flex;
-    align-content: center;
-}

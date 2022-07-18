@@ -1,109 +1,218 @@
-.servicios {
-    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../../img/background.jpg");
-    padding: 5vh 5vh;
+.serviciosPadre {
+    background-color: black;
     height: 70vh;
     position: relative;
-}
-
-.serviciosContainer {
     display: flex;
     justify-content: center;
-    /* height: 20vh;    */
 }
 
-.serviciosTitle {
-    height: 15vh;
-    align-items: center;
-    display: flex;
+.serviciosTituloMovile {
+    color: white;
+    font-size: 2rem;
+    padding-top: 20%;
+    letter-spacing: 5px;
 }
 
-.serviciosLine{
-    width: 80vw;
-    /* height: 5vh;  */
-    margin-left: auto;
-    margin-right: auto;
+.serviciosTituloTablet {
+    display: none;  
 }
 
-.cardsContainer{
-    height: 55vh;
+.serviciosLineaMovile {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1.5px solid;
+    opacity: 100;
+}
+
+.serviciosCarrousel {
+    top: 35%;
     position: absolute;
-    top: 50%;
+
 }
 
-.sizeCard {
-    width: 20rem;
-    height: 45vh;
-    margin: auto;
-    border-radius: 0.5rem;
+.servicios{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.serviciosCard {
+    height: 50vh;
+    background-color: white;
+    width: 80vw;  
+}
+
+.serviciosCardSombra {
     box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
     -webkit-box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
     -moz-box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
-}
-
-.backColorCard {
-    background-color: white;
-}
-
-.serviciosButtonSubmit{
-    font-weight: 600;
-    color: black;
-    margin-top: 15%;
-    border-radius: 10px;
-    border: 1px solid #26E673;
-    background-color: #26E673;
-    width: 60%;
-}
-
-.marginCard{
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.serviciosBottom{
-    background-color: white;
-    height: 20vw;
+     border-radius: 5%;
 }
 
 .serviciosImg {
-    padding: 30px;
-    border-radius: 12%;
-    filter: grayscale(1);
-    margin: auto;
+    width: 100%;
+    border-radius: 5px;
 }
 
-.card-title {
+.serviciosCardImg {
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.serviciosCardBoxTexto {
+    padding: 5% 10% 15% 10%;  
+}
+
+.serviciosCardTitulo {
+    padding-bottom: 5%;
     color: black;
-    font-weight: bold;
 }
 
-.card-text {
+
+.serviciosCardParrafo {
+    padding-bottom: 5%;
     color: black;
-    font-size: .95rem;
 }
 
-.serviciosBottomLineWhite {
-    height: 2vh;
+.serviciosCardBtn {
+    width: 40vw;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #26E673;
+    background-color: #26E673;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.serviciosCardBoxBtn {
+    padding: 5% 10% 15% 10%; 
+}
+
+.serviciosCardsTablet {
+    display: none;
+}
+
+.serviciosLienaBlanca {
+    height: 1vh;
     background-color: white;
+    display: none;
 }
 
-.serviciosBottomLineBlack {
-    height: 2vh;
+.serviciosLienaNegra {
+    height: 1.5vh;
     background-color: black;
+    display: none;
 }
-
-.serviciosBottomLine {
-    height: 20vh;
+.serviciosFin {
+    height: 15vh;
     background-color: white;
 }
 
-.titleMargin {
-    margin-top: 7%;
+@media only screen and (min-width: 768px) {
+
+.serviciosTituloTablet {
+    display: inline;
+    color: white;
+    letter-spacing: 20px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    padding-top: 15%;
 }
 
-.card-body {
-    padding: 30px;
+.serviciosLineaTablet {
+    display: inline-block;
+    width: 20vw;
+    height: 10vh;
+    border-top: white solid 2px;
+    margin-top: 2%;
 }
 
-.cardsContainerCenter {
+.serviciosCardsMovile {
+    display: none;
+}
+
+.serviciosTituloMovile {
+    display: none;
+}
+
+.serviciosCardsTablet {
+    display: flex;
     justify-content: space-around;
+    width: 100vw;
+    top: 40%;
+    position: absolute;
 }
+
+.serviciosCard {
+    width: 30vw;
+    box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
+    -moz-box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
+     border-radius: 5%;
+}
+
+.serviciosCardBtn{
+    width: 15vw;
+}
+
+.serviciosCardTitulo {
+    height: 10vh;
+    font-size: 2rem;
+}
+
+.serviciosCardParrafo {
+    height: 10vh;   
+}
+
+.serviciosLienaBlanca {
+    display: block;
+}
+
+.serviciosLienaNegra {
+    display: block;
+}
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .serviciosCardTitulo {
+        display: inline-block;
+    }
+
+    .serviciosTituloTablet {
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+        padding-top: 8%;
+    }
+    
+    .serviciosLineaTablet{
+        display: inline-block;
+        width: 20vw;
+        
+        height: 10vh;
+        
+        border-top: white solid 2px;
+    }
+    .serviciosFin {
+        height: 25vh;
+    }
+
+.serviciosCardsTablet {
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+    .serviciosCard {
+        height: auto;  
+        width: 30%;
+    }
+}
+    

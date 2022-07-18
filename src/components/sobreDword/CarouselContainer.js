@@ -8,7 +8,7 @@ import CarouselItem from './CarouselItem';
 
 function CarouselContainer() {
   return (
-    <div className='carouselContainer'>
+    <div className='carouselContainer' id="sobreDword">
       <Carousel controls={false} slide={true} interval={5000000} >
         <Carousel.Item>
           <CarouselItem img={quienesSomosImg} titulo={"¿Quienes Somos?"} text={"Somos una empresa formada por diseñadores y programadores especializados en desarrollo web. Nuestro desafío es evolucionar día a día y estar al día con las últimas tendencias en usabilidad, diseño y tecnología. Para comprender el enfoque y la visión una empresa, se debe sumergir y comprender su mundo. Por eso, ofrecemos soluciones a la medida de cada organización, priorizando su imagen y visibilidad."}/>
