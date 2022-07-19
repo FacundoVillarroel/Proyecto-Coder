@@ -3,7 +3,7 @@ import React from 'react'
 const ProcesoCard = ({numero, img, text}) => {
 
   return (
-    <div className='procesoCard' id="proceso">
+    <div className='procesoCard'>
       <span className='numeroProceso'>{numero}.</span>
       <div className='procesoImgContainer'>
         <img src={img} alt={`Fase ${numero}`} className='procesoImg'/>

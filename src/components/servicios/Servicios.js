@@ -14,7 +14,7 @@ function Servicios() {
   };
 
     return (
-        <div id="servicios">
+        <section id="servicios">
             <div className="serviciosPadre">
                 <div className="serviciosTituloMovile">SERVICIOS
                     <hr className="serviciosLineaMovile" />
@@ -49,7 +49,7 @@ function Servicios() {
                                     Programación y codificación de una pagina web en base al diseño previo.</p>
                             </div>
                             <div className="serviciosCardBoxBtn">
-                                <button className="serviciosCardBtn">Consultar</button>
+                            <a href="#contacto"><button className="serviciosCardBtn">Consultar</button></a>
                             </div>
                             </div>
                         </Carousel.Item>
@@ -65,7 +65,7 @@ function Servicios() {
                                 </div>
                                 <div className="serviciosCardBoxBtn">
 
-                                    <button className="serviciosCardBtn">Consultar</button>
+                                <a href="#contacto"><button className="serviciosCardBtn">Consultar</button></a>
                                 </div>
                             </div>
                         </Carousel.Item>
@@ -136,7 +136,7 @@ function Servicios() {
             <div className="serviciosLienaBlanca"></div>
             <div className="serviciosLienaNegra"></div>
             <div className="serviciosFin"></div>
-        </div>
+        </section>
     )
 }
 

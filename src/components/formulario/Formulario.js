@@ -51,7 +51,7 @@ const Formulario = () => {
   }
 
   return (
-    <div className='formularioContainer' id="contacto">
+    <section className='formularioContainer' id="contacto">
       <h1 className='contactoTitulo'>CONTACTO</h1>
       <div className='proyectoEnMenteContainer'>
         <div className='proyectoEnMente'>
@@ -110,7 +110,7 @@ const Formulario = () => {
           <button type='submit' className='buttonSubmit' onClick={handleSubmit}>Enviar Consulta</button>
         </form>
       </div>
-    </div>
+    </section>
   )
 }
 

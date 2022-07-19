@@ -5,7 +5,7 @@ import "./sobreDword.css"
 
 const SobreDword = () => {
   return (
-    <div className='sobreDwordContainer d-flex flex-column'>
+    <section className='sobreDwordContainer d-flex flex-column' id="sobreDword">
       <div className='dwordTituloContainer'>
         <div className='lineaDecorativaTitulo hide'></div>
         <h1 className='dwordTitulo'>
@@ -14,7 +14,7 @@ const SobreDword = () => {
         <div className='lineaDecorativaTitulo'></div>
       </div>
       <CarouselContainer/>
-    </div>
+    </section>
   )
 }
 
