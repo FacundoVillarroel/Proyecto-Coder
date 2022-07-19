@@ -62,6 +62,23 @@
     padding-bottom: 2%;
 }
 
+.landingButtonSubmitInactivo {
+    width: 40vw;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #0D0D0D;
+    background-color: #0D0D0D;
+    font-size: .6rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.landingButtonSubmitInactivo:hover{
+    background-color: #196B3A;
+    color: white;
+  }
+
 .landingButtonSubmit:hover{
     background-color: #196B3A;
     border-color: #196B3A;
@@ -96,6 +113,10 @@
         width: 16vw;
     }
 
+    .landingButtonSubmitInactivo  {
+        width: 16vw;
+    }
+
     .indexTextTitulo {
         font-size: 3rem;
     }
@@ -106,6 +127,9 @@
     .landingButtonSubmit {
         font-size: 0.8rem;
     }
+    .landingButtonSubmitInactivo {
+        font-size: 0.8rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -113,11 +137,18 @@
     .landingButtonSubmit {
         font-size: .6rem;
     }
+    .landingButtonSubmitInactivo {
+        font-size: .6rem;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
 
     .landingButtonSubmit {
+        font-size: .9rem;
+    }
+
+    .landingButtonSubmitInactivo {
         font-size: .9rem;
     }
 
