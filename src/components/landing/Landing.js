@@ -17,7 +17,7 @@ const Landing = () => {
           </p>
           <div className="indexBoxBotones">
             <a href="#inicio"><button className="landingButtonSubmit">Ingresar al Sitio</button></a>
-            <a href="#contacto"><button className="landingButtonSubmit">Solicitar Presupuesto</button></a>
+            <a href="#contacto"><button className="landingButtonSubmitInactivo">Solicitar Presupuesto</button></a>
           </div>
         </div>
       </div>
