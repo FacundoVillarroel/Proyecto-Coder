@@ -3,7 +3,7 @@ import instagram from '../../img/instagram.svg'
 import linkedin from '../../img/linkedin.svg'
 import facebook from '../../img/facebook.svg'
 import copyright from '../../img/copyright.svg'
-import arrow from '../../img/arrow.svg'
+import arrow from '../../img/arrowGreen.png'
 
 const Footer = () => {
     return (

@@ -42,6 +42,13 @@
     width: 80vw;  
 }
 
+.carousel-inner {
+    border-radius: 5%;
+}
+.carousel-indicators {
+    display: none;
+}
+
 .serviciosCardSombra {
     box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
     -webkit-box-shadow: 10px 9px 15px -4px rgba(0,0,0,0.43);
@@ -92,6 +99,11 @@
     border-color: #196B3A;
     color: white;
 }
+
+/* .buttonSubmit:hover{
+    background-color: #196B3A;
+    color: white;
+  } */
 
 .serviciosCardBoxBtn {
     padding: 5% 10% 15% 10%; 
