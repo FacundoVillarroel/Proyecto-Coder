@@ -19,66 +19,7 @@ function Servicios() {
                 <div className="serviciosTituloMovile">SERVICIOS
                     <hr className="serviciosLineaMovile" />
                 </div>
-                {/* <div className="serviciosCarrousel serviciosCardsMovile">
-
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner serviciosCardSombra">
-                    <div className="carousel-item active">
-
-                        <div className="serviciosCard">
-                            <div className="serviciosCardImg">
-                                <img className="serviciosImg" src={disenoWeb} alt="iamgen diseño"/>
-                            </div>
-                            <div className="serviciosCardBoxTexto">
-                                <h1 className="serviciosCardTitulo">Diseño</h1>
-                                <p className="serviciosCardParrafo">Esbozo de una pagina web teniendo en cuenta la idea del
-                                    cliente.</p>
-                            </div>
-                            <div className="serviciosCardBoxBtn">
-                                <a  href="#contacto"><button className="serviciosCardBtn">Consultar</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-
-                        <div className="serviciosCard">
-                            <div className="serviciosCardImg">
-                                <img className="serviciosImg" src={desarrolloWeb} alt="imagen desarrollo web"/>
-                            </div>
-                            <div className="serviciosCardBoxTexto">
-                                <h1 className="serviciosCardTitulo">Desarrollo web</h1>
-                                <p className="serviciosCardParrafo">
-                                    Programación y codificación de una pagina web en base al diseño previo.</p>
-                            </div>
-                            <div className="serviciosCardBoxBtn">
-                                <button className="serviciosCardBtn">Consultar</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-
-                        <div className="serviciosCard">
-                            <div className="serviciosCardImg">
-                                <img className="serviciosImg" src={hosting} alt="imagen Hosting"/>
-                            </div>
-                            <div className="serviciosCardBoxTexto">
-                                <h1 className="serviciosCardTitulo">Hosting</h1>
-                                <p className="serviciosCardParrafo">
-                                    Puesta online de una pagina web.</p>
-                            </div>
-                            <div className="serviciosCardBoxBtn">
-
-                                <button className="serviciosCardBtn">Consultar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> */}
-
-
-
-
+               
                 <div className="serviciosCarrousel serviciosCardsMovile serviciosCardSombra">
 
                     <Carousel activeIndex={index} onSelect={handleSelect}>
@@ -131,8 +72,6 @@ function Servicios() {
                     </Carousel>
 
                 </div>
-
-
 
 
                 <div className="serviciosTituloTablet">
