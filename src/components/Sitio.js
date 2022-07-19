@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "./navbar/Navbar";
+import NavbarContainer from "./navbar/NavbarContainer";
 import Inicio from "./inicio/Inicio";
 import SobreDword from "./sobreDword/SobreDword";
 import Proceso from "./proceso/Proceso";
@@ -10,7 +10,7 @@ import Footer from './footer/Footer';
 const Sitio = () => {
   return (
     <div>
-      <Navbar/>
+      <NavbarContainer/>
       <Inicio/>
       <SobreDword/>
       <Proceso/>

@@ -15,6 +15,9 @@ height: 40vh;
     margin-bottom: auto;
     text-decoration: none;
 }
+.footerTxt:hover{
+    color: #26E673;
+}
 
 .footerImgRedes {
     width: 50px;
