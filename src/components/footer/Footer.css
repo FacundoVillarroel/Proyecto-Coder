@@ -29,7 +29,7 @@ height: 40vh;
 }
 .footerImgFlecha {
     width: 20px;
-    filter: invert(1);
+    /* filter: invert(1); */
     margin-left: 60%;
 }
 
