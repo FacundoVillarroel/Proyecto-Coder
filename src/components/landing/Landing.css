@@ -9,7 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    height: 30vh;
+    margin-top: 15%;
 }
 
 .indexImg {
@@ -44,7 +45,7 @@
 }
 
 .indexBoxBotones {
-    height: 20vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
