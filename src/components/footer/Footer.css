@@ -25,7 +25,6 @@ height: 40vh;
 }
 .footerImgCpy {
     width: 20px;
-    filter: invert(1);
     margin: 5%;
 }
 .footerImgFlecha {

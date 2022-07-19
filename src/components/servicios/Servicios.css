@@ -100,6 +100,11 @@
     color: white;
 }
 
+/* .buttonSubmit:hover{
+    background-color: #196B3A;
+    color: white;
+  } */
+
 .serviciosCardBoxBtn {
     padding: 5% 10% 15% 10%; 
 }
