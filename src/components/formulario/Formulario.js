@@ -14,7 +14,7 @@ const Formulario = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    fetch("https://formsubmit.co/ajax/contactodword@gmail.com", {
+    fetch("https://formsubmit.co/ajax/f5882883d82875a8fb759b005962a4e8", {
     method: "POST",
     headers: { 
         'Content-Type': 'application/json',
