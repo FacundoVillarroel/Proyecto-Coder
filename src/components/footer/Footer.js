@@ -14,9 +14,9 @@ const Footer = () => {
                 <a href="#inicio"><img className="footerImgFlecha" src={arrow} alt="" /></a>
             </div>
             <div className="footerBoxRedes">
-                <img className="footerImgRedes" src={instagram} alt="logo instagram" />
-                <img className="footerImgRedes" src={facebook} alt="logo facebook" />
-                <img className="footerImgRedes" src={linkedin} alt="logo linkedin" />
+                <a href="https://www.instagram.com/somosdword/"><img className="footerImgRedes" src={instagram} alt="logo instagram" /></a>
+                <a href="https://www.facebook.com/somosdword/"><img className="footerImgRedes" src={facebook} alt="logo facebook" /></a>
+                <a href="https://www.linkedin.com/in/somosdword/"><img className="footerImgRedes" src={linkedin} alt="logo linkedin" /></a>
             </div>
             <div className="footerBoxDerechos">
                 <img className="footerImgCpy" src={copyright} alt="logo copyright" />
