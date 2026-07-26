@@ -1,38 +1,97 @@
-# Sword Website
-_(English version below)_
+# DWORD
 
-Este es un proyecto real creado para el cliente _"Sword"_.
-Siendo parte de la iniciativa de **Coderhouse** para aquellos que terminan en el "top_10" de algun curso, en este caso en los cursos de **_React JS_** y de **_Diseño UX/UI_**
+Marketing website developed for a real client.
+
+DWORD is a responsive React application created for a real client in collaboration with another frontend developer and two UI/UX designers.
+
+The project focused on translating design proposals into a modern, responsive and maintainable frontend while collaborating as part of a small development team.
+
+Built with **React**, **Bootstrap** and **CSS**.
+
+<p align="center">
+  <img src="src/img/landind_page_preview.png" width="900" alt="DWORD Landing Page"/>
+</p>
+
+## Features
+
+- 🎨 Responsive marketing website.
+- 📱 Mobile-first responsive layout.
+- 🧩 Component-based React architecture.
+- ⚡ Reusable UI components.
+- 🎯 Pixel-oriented implementation based on design mockups.
+- 🌐 Cross-device compatibility.
+
+## Development Process
+
+Unlike my other projects, DWORD was developed as part of a collaborative team.
+
+I worked alongside another frontend developer and two UI/UX designers, transforming design mockups into reusable React components while maintaining visual consistency throughout the application.
+
+This experience helped me improve communication, collaborative development and working with designs created by other team members.
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| **Framework** | React |
+| **Styling** | CSS · Bootstrap |
+| **Language** | JavaScript |
+| **Tools** | Git · GitHub |
+
+## What I Learned
+
+DWORD was one of my first experiences collaborating on a frontend project with other developers and designers.
+
+Working as part of a small team taught me the importance of communication, consistency and translating design proposals into reusable React components.
+
+Beyond the technical implementation, this project helped me understand how collaborative software development differs from building personal projects individually.
+
+## Getting Started
+
+### Requirements
+
+Before running the project, make sure you have:
+
+- Node.js 20+
+- npm
+
+---
+
+### Installation
+
+```bash
+git clone https://github.com/FacundoVillarroel/Proyecto-Coder.git
+
+cd Proyecto-Coder
+
+npm install
+```
+
+---
+
+### Running the Application
+
+```bash
+npm start
+```
+
+The application will be available at:
+
+```text
+http://localhost:3000/
+```
 
 
-### El Equipo 
+## Author
 
-En este caso el equipo fue de cuatro personas, dos **diseñadores UX/UI** y dos desarrolladores **FrontEnd**.
-El proyecto fue creado utilizando **ReactJS** y **Figma**.
+**Facundo Villarroel**
 
-### Deployment
+Full Stack Software Developer building web and mobile applications while continuously improving through real-world projects.
+- GitHub: https://github.com/FacundoVillarroel
+- LinkedIn: https://www.linkedin.com/in/villarroelfacundo/
 
-Puedes encontrar el proyecto en el siguiente link https://proyecto-coder-drab.vercel.app/
+---
 
+## License
 
-¡Muchas gracias por su interés en este proyecto, animate a dejar un mensaje!
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-# Sword Website
-
-This is a real project created for the client _"Sword"_.
-Being part of the **Coderhouse** initiative for those who finish in the "top_10" of any course, in this case in the **_React JS_** and **_UX/UI Design_** courses
-
-
-### The Team 
-
-In this case the team was made up of four people, two **UX/UI designers** and two **FrontEnd** developers.
-The project was created using **ReactJS** and **Figma**.
-
-### Deployment
-
-You can find the finished project in the following link https://proyecto-coder-drab.vercel.app/
-
-
-Thank you very much for your interest in this project, feel free to leave a message!
+This project is licensed under the MIT License.
